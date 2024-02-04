@@ -13,13 +13,13 @@ class B extends A
            System.out.println("This is Class B");
     }
 }
-//class C extends B
-//{
-//    public void show()
-//    {
-//           System.out.println("This is Class C");
-//    }
-//}
+class C extends B
+{
+    public void show()
+    {
+           System.out.println("This is Class C");
+    }
+}
 
 public class MethodOverriding
 {
