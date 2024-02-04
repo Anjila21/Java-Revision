@@ -26,7 +26,7 @@ public class StaticEx {
     public static void main(String[] args) {
         StudentInfo s= new StudentInfo(101,"Anjila");
       s.display();
-      s.changeCName();
+      StudentInfo.changeCName();
       s.display();
       
 
