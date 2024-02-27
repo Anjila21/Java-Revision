@@ -5,7 +5,7 @@ public class FinalKeywordEx
         int a = 10;
        final  int b = 20;
         a = 20;
-        b = 30;
+       // b = 30;
         System.out.println(a+"\n"+b);
     }
 }
